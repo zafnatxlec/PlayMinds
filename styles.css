@@ -1,0 +1,170 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #1c1c1c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #12003b;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn-categorias,
+.btn-secundario {
+  background-color: #5c3df4;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-categorias:hover,
+.btn-secundario:hover {
+  background-color: #4020d8;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 38px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #eee;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Main */
+.main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 36px;
+  color: #1d004b;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Card del juego */
+.card-juego {
+  background: white;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card-juego img {
+  max-width: 80px;
+}
+
+.card-juego p {
+  margin: 10px 0;
+  color: #444;
+}
+
+/* Botón principal */
+.btn-jugar {
+  background-color: #7a36ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn-jugar:hover {
+  background-color: #561bd8;
+}
+
+/* Sección de descripción */
+.descripcion {
+  margin-top: 60px;
+   background-color: #7a36ff;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  background-color: #12003b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+/* Método 2: tamaño relativo */
+    .img-relativa {
+      width: 200%;
+      height: 200%;
+      border: 0px solid green;
+      margin-bottom: 20px;
+    }
